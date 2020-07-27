@@ -1,0 +1,53 @@
+selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/notes
+palvelin-->selain: HTML-koodi
+selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.css
+palvelin-->selain: main.css
+selain->palvelin: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.js
+palvelin-->selain: main.js
+selain->palvelin:HTTP GET https://fullstack-exmapleapp.herokuapp.com/data.json
+palvelin-->selain:data.json
+
+{content: "HTML is easy", date: "2019-05-23T17:30:31.098Z"},…]
+0: {content: "HTML is easy", date: "2019-05-23T17:30:31.098Z"}
+1: {content: "Browser can execute only Javascript", date: "2019-05-23T18:39:34.091Z"}
+2: {content: "Most important methods of HTTP-protocol are GET and POST", date: "2019-05-23T19:20:14.298Z"}
+3: {content: "hello world", date: "2020-07-27T02:27:17.313Z"}
+4: {content: "Testing", date: "2020-07-27T02:55:42.715Z"}
+5: {content: "test", date: "2020-07-27T03:29:58.933Z"}
+6: {content: "another test", date: "2020-07-27T03:30:57.511Z"}
+7: {content: "one more test for the road", date: "2020-07-27T03:33:34.099Z"}
+8: {content: "", date: "2020-07-27T03:45:42.327Z"}
+9: {content: "", date: "2020-07-27T03:51:09.591Z"}
+10: {content: "test note", date: "2020-07-27T03:55:43.796Z"}
+11: {content: "1", date: "2020-07-27T04:09:54.879Z"}
+12: {content: "1", date: "2020-07-27T04:18:45.422Z"}
+13: {content: "Let's test again!", date: "2020-07-27T04:18:54.427Z"}
+14: {content: "spa send data", date: "2020-07-27T04:18:56.374Z"}
+15: {content: "hi", date: "2020-07-27T04:19:57.878Z"}
+16: {content: "", date: "2020-07-27T04:36:20.689Z"}
+17: {content: "xxx", date: "2020-07-27T04:41:14.202Z"}
+18: {content: "", date: "2020-07-27T05:22:51.619Z"}
+19: {content: "", date: "2020-07-27T05:22:52.007Z"}
+20: {content: "whoa", date: "2020-07-27T05:23:11.153Z"}
+21: {content: "check out my instagram", date: "2020-07-27T05:23:29.306Z"}
+22: {content: "", date: "2020-07-27T05:43:39.901Z"}
+23: {content: "send req", date: "2020-07-27T06:05:17.698Z"}
+24: {content: "send", date: "2020-07-27T06:11:29.593Z"}
+25: {content: "ehllo", date: "2020-07-27T06:16:36.123Z"}
+26: {content: "Hello!", date: "2020-07-27T06:25:12.565Z"}
+27: {content: "We are livin in a simulation! Open your eyes!", date: "2020-07-27T06:25:30.913Z"}
+28: {content: "See the truth!", date: "2020-07-27T06:25:38.383Z"}
+29: {content: "test", date: "2020-07-27T06:35:57.198Z"}
+30: {content: "single page app", date: "2020-07-27T06:52:41.391Z"}
+31: {content: "Anyone know where they get data.json from in the GET request?",…}
+32: {content: "Nvm i figured it out, thanks", date: "2020-07-27T07:07:07.865Z"}
+33: {content: "yo", date: "2020-07-27T07:11:34.439Z"}
+34: {content: "5555555555", date: "2020-07-27T07:18:25.954Z"}
+35: {content: "this ones better", date: "2020-07-27T07:19:21.079Z"}
+36: {content: "woow", date: "2020-07-27T07:19:23.456Z"}
+37: {content: "te", date: "2020-07-27T07:19:29.463Z"}
+38: {content: "y", date: "2020-07-27T07:20:20.190Z"}
+39: {content: "red", date: "2020-07-27T07:20:39.837Z"}
+40: {content: "blue", date: "2020-07-27T07:20:44.414Z"}
+selain->palvelin:HTTP GET https://fullstack-exampleapp.herokaupp.com/new_note
+palvelin-->selain:43: {content: "Asiaa", date: "2020-07-27T07:43:16.702Z"}
